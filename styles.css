@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+
+body {
+    background-color: #020c1b;
+    color: #e2e8f0;
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+    background: linear-gradient(to bottom, #f9e4b7, #c5a059, #b8860b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-gold-gradient {
+    border-image: linear-gradient(to right, #b8860b, #f9e4b7, #b8860b) 1;
+}
+
+/* Presidential Seal Animation */
+.seal-spin {
+    animation: slowSpin 60s linear infinite;
+}
+@keyframes slowSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0a192f;
+}
+::-webkit-scrollbar-thumb {
+    background: #c5a059;
+    border-radius: 5px;
+}
+
+/* Starry Background Effect */
+.stars {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+    background-size: 50px 50px;
+}
