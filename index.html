@@ -21,10 +21,16 @@
         <div class="max-w-7xl mx-auto px-4 h-full relative flex items-center justify-between">
             
             <!-- Left Brand -->
-            <div class="w-1/4 flex items-center justify-start">
+            <div class="w-1/4 flex items-center justify-start flex-col">
                 <div class="text-left">
                     <h1 class="font-serif text-2xl tracking-[0.2em] text-gold-400 font-bold">CAANDONS</h1>
                     <p class="text-[0.6rem] uppercase tracking-widest text-gold-600/70">City of Dragons</p>
+                </div>
+                <!-- SVG Animation -->
+                <div class="w-32 h-8 mt-2">
+                    <svg viewBox="0 0 512 128" class="w-full h-full text-gold-400">
+                        <path fill="currentColor" d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"></path>
+                    </svg>
                 </div>
             </div>
 
@@ -57,7 +63,7 @@
                     <a href="#" class="hover:text-white">Login</a>
                 </div>
                 <button class="bg-gradient-to-r from-gold-600 to-gold-400 text-navy-900 font-serif font-bold px-6 py-2 rounded-sm uppercase tracking-widest text-xs hover:brightness-110 shadow-lg transition-all">
-                    Donate
+                    <a href="#contact" class="block w-full h-full">Contact Us</a>
                 </button>
             </div>
         </div>
@@ -127,7 +133,7 @@
 
         <div class="max-w-7xl mx-auto px-4 relative z-10">
             <div class="text-center mb-16">
-                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">Departmental Services</h3>
+                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">LEGAL Services</h3>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -245,6 +251,53 @@
                 <p class="text-sm text-gray-500 italic font-serif">
                     "To foster unity among the districts and ensure the prosperity of every citizen through diligence and honor."
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lawyer Section -->
+    <section class="py-20 bg-navy-900 border-t border-gold-600/20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Lawyer Image -->
+                <div class="relative group">
+                    <div class="relative bg-navy-800 border-2 border-gold-600/30 p-2">
+                        <img src="lawyer.png" alt="Zohaib Salman - Lawyer" class="w-full h-96 object-cover object-top">
+                    </div>
+                </div>
+
+                <!-- Lawyer Content -->
+                <div class="text-left">
+                    <h3 class="font-serif text-3xl text-gold-400 mb-6 uppercase tracking-widest">Legal Services</h3>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Navigating the legal landscape requires a partner you can trust. I am <span class="text-gold-400 font-semibold">Zohaib Salman</span>, an experienced lawyer serving the Punjab region. My practice is built on the belief that every client deserves a fierce advocate and clear guidance.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Specializing in <span class="text-gold-400 font-semibold">Civil disputes</span>, <span class="text-gold-400 font-semibold">Criminal defense</span>, and <span class="text-gold-400 font-semibold">Corporate affairs</span>, I offer a versatile legal skillset designed to protect your rights and secure your business interests.
+                    </p>
+                    <button class="bg-gradient-to-r from-gold-600 to-gold-400 text-navy-900 font-serif font-bold px-8 py-3 rounded-sm uppercase tracking-widest text-sm hover:brightness-110 shadow-lg transition-all">
+                        Schedule Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-20 bg-navy-900 border-t border-gold-600/20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">Contact Us</h3>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-navy-800 border border-gold-600/30 p-2">
+                <iframe
+                    onload="javascript:parent.scrollTo(0,0);"
+                    height="750" allowTransparency="true"
+                    frameborder="0" scrolling="yes"
+                    style="width:100%;border:none"
+                    src="https://digital-justice.formaloo.co/0qnz0p"
+                    id="formalooIframe"></iframe>
             </div>
         </div>
     </section>
