@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Dispute Resolution - Digital Justice | Legal Services in Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="font-sans overflow-x-hidden bg-navy-950 text-white">
+    <!-- Top Bar -->
+    <div class="bg-navy-950 text-gold-500 text-[10px] py-1 border-b border-white/10 tracking-widest uppercase text-center">
+        Certified with the Punjab Bar • Established 2010 • Trusted Partners
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-navy-900/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gold-600/30 h-24">
+        <div class="max-w-7xl mx-auto px-4 h-full relative flex items-center justify-between">
+
+            <!-- Left Brand -->
+            <div class="w-1/4 flex items-center justify-start flex-col">
+                <div class="text-left">
+                    <h1 class="font-serif text-2xl tracking-[0.2em] text-gold-400 font-bold">Digital Justice</h1>
+                    <p class="text-[0.6rem] uppercase tracking-widest text-gold-600/70">LEGAL PROBLEM SOLVER</p>
+                </div>
+                <!-- SVG Animation -->
+                <div class="w-32 h-8 mt-2">
+                    <svg viewBox="0 0 512 128" class="w-full h-full text-gold-400">
+                        <path fill="currentColor" d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Center Links & Seal -->
+            <div class="w-1/2 flex justify-center items-center relative">
+                <!-- Navigation Links (Left of Seal) -->
+                <div class="hidden lg:flex space-x-8 mr-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="../index.html">Home</a>
+                    <a href="#">Our Team</a>
+                </div>
+
+                <!-- Central Seal (Absolute to pop out) -->
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-4 z-10 group cursor-pointer">
+                    <div class="w-24 h-24 rounded-full bg-navy-900 border-4 border-gold-500 shadow-[0_0_30px_rgba(197,160,89,0.3)] flex items-center justify-center relative overflow-hidden transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 border-2 border-dashed border-gold-600/50 rounded-full m-1 seal-spin"></div>
+                        <i class="fas fa-eagle text-4xl text-gold-gradient"></i>
+                    </div>
+                </div>
+
+                <!-- Navigation Links (Right of Seal) -->
+                <div class="hidden lg:flex space-x-8 ml-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="#">Decrees</a>
+                    <a href="#">Media</a>
+                </div>
+            </div>
+
+            <!-- Right Actions -->
+            <div class="w-1/4 flex items-center justify-end space-x-6">
+                <div class="hidden md:flex space-x-6 text-xs font-serif tracking-widest text-gold-light/80">
+                    <a href="#" class="hover:text-white">Login</a>
+                </div>
+                <button class="bg-gradient-to-r from-gold-600 to-gold-400 text-navy-900 font-serif font-bold px-6 py-2 rounded-sm uppercase tracking-widest text-xs hover:brightness-110 shadow-lg transition-all">
+                    <a href="../index.html#contact" class="block w-full h-full">Contact Us</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative py-24 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy-900 to-navy-800 opacity-80"></div>
+
+        <!-- Main Content -->
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-4">
+            <h1 class="font-serif text-5xl md:text-6xl text-gold-400 mb-6 uppercase tracking-widest">Alternative Dispute Resolution</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Mediation and arbitration services for efficient conflict resolution under Pakistani law, saving time and costs compared to traditional litigation.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="py-20 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Left Sidebar - Services Menu -->
+                <div class="lg:col-span-1">
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-6 sticky top-28">
+                        <h3 class="font-serif text-gold-400 text-xl mb-6 uppercase tracking-widest border-b border-gold-600/30 pb-3">Our ADR Services</h3>
+                        <ul class="space-y-3 text-sm">
+                            <li><a href="#mediation" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Mediation</a></li>
+                            <li><a href="#arbitration" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Arbitration</a></li>
+                            <li><a href="#negotiation" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Negotiation</a></li>
+                            <li><a href="#conciliation" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Conciliation</a></li>
+                            <li><a href="#neutral-evaluation" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Neutral Evaluation</a></li>
+                            <li><a href="#mini-trials" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Mini-Trials</a></li>
+                            <li><a href="#ombudsman" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Ombudsman Services</a></li>
+                            <li><a href="#adr-clauses" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>ADR Clauses</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="lg:col-span-2 space-y-16">
+                    <!-- Mediation Section -->
+                    <div id="mediation" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-handshake text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Mediation</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Mediation is a voluntary, confidential process where a neutral third party (the mediator) facilitates negotiations between disputing parties to help them reach a mutually acceptable settlement:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Family Mediation:</strong> Mediation for family disputes including divorce, child custody, and inheritance matters</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Commercial Mediation:</strong> Mediation for business and commercial disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Employment Mediation:</strong> Mediation for workplace disputes and employment conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Property Mediation:</strong> Mediation for property disputes and real estate conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Community Mediation:</strong> Mediation for community disputes and neighborhood conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Court-Annexed Mediation:</strong> Mediation conducted under court supervision</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Online Mediation:</strong> Virtual mediation conducted through online platforms</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced mediators facilitate constructive dialogue, helping parties explore options and reach mutually beneficial agreements that preserve relationships and avoid the costs of litigation.
+                        </p>
+                    </div>
+
+                    <!-- Arbitration Section -->
+                    <div id="arbitration" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-gavel text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Arbitration</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Arbitration is a private dispute resolution process where parties agree to submit their disputes to one or more neutral arbitrators who make a binding decision:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Domestic Arbitration:</strong> Arbitration conducted within Pakistan under the Arbitration Act, 1940</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Arbitration:</strong> Arbitration for cross-border disputes under international arbitration rules</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Commercial Arbitration:</strong> Arbitration for business and commercial disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Construction Arbitration:</strong> Arbitration for construction and infrastructure disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Investment Arbitration:</strong> Arbitration for investment disputes and investor-state conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Award Enforcement:</strong> Enforcement of arbitral awards under the New York Convention</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Institutional Arbitration:</strong> Arbitration conducted under the rules of arbitration institutions</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced arbitrators provide fair, efficient, and binding resolution of disputes, ensuring that your case is decided by experts with specialized knowledge in the relevant field.
+                        </p>
+                    </div>
+
+                    <!-- Negotiation Section -->
+                    <div id="negotiation" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-handshake text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Negotiation</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Negotiation is a direct dialogue between parties to resolve disputes and reach mutually acceptable agreements:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Contract Negotiation:</strong> Negotiation of contract terms and conditions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Settlement Negotiation:</strong> Negotiation of settlement agreements in litigation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Business Negotiation:</strong> Negotiation of business deals and transactions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Employment Negotiation:</strong> Negotiation of employment terms and severance packages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Pre-Litigation Negotiation:</strong> Negotiation to resolve disputes before filing lawsuits</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Negotiation:</strong> Negotiation of cross-border disputes and transactions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Assisted Negotiation:</strong> Negotiation with the assistance of legal counsel</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our skilled negotiators help you achieve favorable outcomes through strategic negotiation, preserving relationships and avoiding the costs of litigation.
+                        </p>
+                    </div>
+
+                    <!-- Conciliation Section -->
+                    <div id="conciliation" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-comments text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Conciliation</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Conciliation is a process where a neutral third party (the conciliator) assists disputing parties in reaching a mutually acceptable settlement:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Labor Conciliation:</strong> Conciliation for labor disputes and industrial conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Commercial Conciliation:</strong> Conciliation for business and commercial disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Family Conciliation:</strong> Conciliation for family disputes and domestic conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Community Conciliation:</strong> Conciliation for community disputes and neighborhood conflicts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Government Conciliation:</strong> Conciliation involving government agencies and public bodies</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Conciliation:</strong> Conciliation for cross-border disputes</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced conciliators facilitate constructive dialogue and propose solutions to help parties reach amicable settlements that preserve relationships and avoid litigation.
+                        </p>
+                    </div>
+
+                    <!-- Neutral Evaluation Section -->
+                    <div id="neutral-evaluation" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-search text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Neutral Evaluation</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Neutral evaluation is a process where a neutral expert evaluates the strengths and weaknesses of each party's case and provides a non-binding assessment:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Legal Evaluation:</strong> Assessment of legal merits and potential outcomes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Technical Evaluation:</strong> Assessment of technical issues in complex disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Financial Evaluation:</strong> Assessment of financial claims and damages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Early Case Assessment:</strong> Early evaluation of case strengths and weaknesses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Settlement Facilitation:</strong> Use of evaluation to facilitate settlement negotiations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Expert Determination:</strong> Binding determination by subject matter experts</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our neutral evaluators provide objective assessments of your case, helping you make informed decisions about settlement and litigation strategy.
+                        </p>
+                    </div>
+
+                    <!-- Mini-Trials Section -->
+                    <div id="mini-trials" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-balance-scale text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Mini-Trials</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Mini-trials are structured settlement processes where parties present abbreviated versions of their cases to a neutral advisor or panel:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Case Presentation:</strong> Presentation of key evidence and arguments by each party</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Neutral Advisor:</strong> Evaluation and feedback from a neutral advisor</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Executive Involvement:</strong> Participation of senior executives with settlement authority</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Settlement Negotiation:</strong> Facilitated settlement negotiations following case presentation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Confidentiality:</strong> Confidential proceedings that do not prejudice litigation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Complex Disputes:</strong> Effective for complex commercial and technical disputes</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our mini-trial process provides a realistic assessment of case strengths and weaknesses, facilitating informed settlement decisions and avoiding the costs of full litigation.
+                        </p>
+                    </div>
+
+                    <!-- Ombudsman Services Section -->
+                    <div id="ombudsman" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-user-tie text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Ombudsman Services</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We provide assistance with ombudsman proceedings and alternative dispute resolution through government ombudsman offices:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Federal Ombudsman:</strong> Complaints and representation before the Federal Ombudsman (Wafaqi Mohtasib)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Provincial Ombudsmen:</strong> Complaints and representation before provincial ombudsmen</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Banking Ombudsman:</strong> Complaints against banks and financial institutions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Insurance Ombudsman:</strong> Complaints against insurance companies</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Tax Ombudsman:</strong> Complaints against tax authorities</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>SECP Ombudsman:</strong> Complaints against securities and exchange matters</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Complaint Preparation:</strong> Preparation and filing of ombudsman complaints</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team assists clients in navigating ombudsman proceedings, providing an efficient and cost-effective alternative to litigation for resolving disputes with government agencies and regulated entities.
+                        </p>
+                    </div>
+
+                    <!-- ADR Clauses Section -->
+                    <div id="adr-clauses" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-file-contract text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">ADR Clauses</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We draft and review alternative dispute resolution clauses for inclusion in contracts and agreements:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Mediation Clauses:</strong> Clauses requiring mediation before litigation or arbitration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Arbitration Clauses:</strong> Clauses requiring arbitration of disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Multi-Tiered Clauses:</strong> Clauses requiring multiple ADR processes before litigation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Institutional Clauses:</strong> Clauses specifying ADR institutions and rules</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Governing Law:</strong> Clauses specifying governing law and jurisdiction for ADR</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Enforcement Clauses:</strong> Clauses addressing enforcement of ADR outcomes</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team ensures that your contracts include effective ADR clauses that provide clear, enforceable mechanisms for resolving disputes efficiently and cost-effectively.
+                        </p>
+                    </div>
+
+                    <!-- Legal Framework Section -->
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-balance-scale text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Legal Framework in Pakistan</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Alternative dispute resolution in Pakistan is governed by various laws and regulations:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Arbitration Act, 1940:</strong> Governs domestic arbitration proceedings</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Recognition and Enforcement (Arbitration Agreements and Foreign Arbitral Awards) Act, 2011:</strong> Governs enforcement of foreign arbitral awards</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Code of Civil Procedure, 1908:</strong> Provides for court-annexed mediation and ADR</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Family Courts Act, 1964:</strong> Provides for mediation in family disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Industrial Relations Act, 2012:</strong> Provides for conciliation in labor disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Wafaqi Mohtasib (Ombudsman) Order, 1983:</strong> Establishes the Federal Ombudsman institution</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Contract Act, 1872:</strong> Governs the formation and enforcement of ADR agreements</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>New York Convention:</strong> Pakistan is a signatory to the New York Convention on enforcement of arbitral awards</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has in-depth knowledge of these laws and regulations, ensuring that your ADR processes are conducted efficiently and in compliance with Pakistani law.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-navy-900 border-t border-gold-600/20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">Contact Us</h3>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-navy-800 border border-gold-600/30 p-2">
+                <iframe
+                    onload="javascript:parent.scrollTo(0,0);"
+                    height="750" allowTransparency="true"
+                    frameborder="0" scrolling="yes"
+                    style="width:100%;border:none"
+                    src="https://digital-justice.formaloo.co/0qnz0p"
+                    id="formalooIframe"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-16 pb-8 border-t-4 border-gold-600">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                <div class="flex items-center space-x-4 mb-6 md:mb-0">
+                    <div class="w-12 h-12 border-2 border-gold-500 rounded-full flex items-center justify-center">
+                        <span class="font-serif text-xl font-bold text-gold-500">C</span>
+                    </div>
+                    <div class="text-left">
+                         <h4 class="font-serif text-lg tracking-widest text-gold-400">CAANDONS</h4>
+                         <p class="text-[10px] uppercase text-gray-500">Official Government Site</p>
+                    </div>
+                </div>
+
+                <div class="flex space-x-8 text-xs font-serif tracking-widest text-gold-600">
+                    <a href="#" class="hover:text-gold-400">PIADE AVOCESSIONS</a>
+                    <a href="#" class="hover:text-gold-400">AD GET OP</a>
+                    <a href="#" class="hover:text-gold-400">PTIYNOUV MDAND</a>
+                </div>
+
+                <div class="flex items-center space-x-4 mt-6 md:mt-0">
+                    <i class="fab fa-twitter text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-facebook text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-instagram text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-600 uppercase tracking-widest">
+                <div class="flex space-x-2 text-gold-600">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>&copy; 2025 City of Dragons. All Rights Reserved.</p>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>001 YOUTYVC</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

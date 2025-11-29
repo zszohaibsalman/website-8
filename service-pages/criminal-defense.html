@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Defense - Digital Justice | Legal Services in Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="font-sans overflow-x-hidden bg-navy-950 text-white">
+    <!-- Top Bar -->
+    <div class="bg-navy-950 text-gold-500 text-[10px] py-1 border-b border-white/10 tracking-widest uppercase text-center">
+        Certified with the Punjab Bar • Established 2010 • Trusted Partners
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-navy-900/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gold-600/30 h-24">
+        <div class="max-w-7xl mx-auto px-4 h-full relative flex items-center justify-between">
+
+            <!-- Left Brand -->
+            <div class="w-1/4 flex items-center justify-start flex-col">
+                <div class="text-left">
+                    <h1 class="font-serif text-2xl tracking-[0.2em] text-gold-400 font-bold">Digital Justice</h1>
+                    <p class="text-[0.6rem] uppercase tracking-widest text-gold-600/70">LEGAL PROBLEM SOLVER</p>
+                </div>
+                <!-- SVG Animation -->
+                <div class="w-32 h-8 mt-2">
+                    <svg viewBox="0 0 512 128" class="w-full h-full text-gold-400">
+                        <path fill="currentColor" d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Center Links & Seal -->
+            <div class="w-1/2 flex justify-center items-center relative">
+                <!-- Navigation Links (Left of Seal) -->
+                <div class="hidden lg:flex space-x-8 mr-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="../index.html">Home</a>
+                    <a href="#">Our Team</a>
+                </div>
+
+                <!-- Central Seal (Absolute to pop out) -->
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-4 z-10 group cursor-pointer">
+                    <div class="w-24 h-24 rounded-full bg-navy-900 border-4 border-gold-500 shadow-[0_0_30px_rgba(197,160,89,0.3)] flex items-center justify-center relative overflow-hidden transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 border-2 border-dashed border-gold-600/50 rounded-full m-1 seal-spin"></div>
+                        <i class="fas fa-eagle text-4xl text-gold-gradient"></i>
+                    </div>
+                </div>
+
+                <!-- Navigation Links (Right of Seal) -->
+                <div class="hidden lg:flex space-x-8 ml-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="#">Decrees</a>
+                    <a href="#">Media</a>
+                </div>
+            </div>
+
+            <!-- Right Actions -->
+            <div class="w-1/4 flex items-center justify-end space-x-6">
+                <div class="hidden md:flex space-x-6 text-xs font-serif tracking-widest text-gold-light/80">
+                    <a href="#" class="hover:text-white">Login</a>
+                </div>
+                <button class="bg-gradient-to-r from-gold-600 to-gold-400 text-navy-900 font-serif font-bold px-6 py-2 rounded-sm uppercase tracking-widest text-xs hover:brightness-110 shadow-lg transition-all">
+                    <a href="../index.html#contact" class="block w-full h-full">Contact Us</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative py-24 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy-900 to-navy-800 opacity-80"></div>
+
+        <!-- Main Content -->
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-4">
+            <h1 class="font-serif text-5xl md:text-6xl text-gold-400 mb-6 uppercase tracking-widest">Criminal Defense in Pakistan</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Strong defense for criminal cases with experienced legal representation, protecting your rights and ensuring fair treatment under Pakistani law.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="py-20 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Left Sidebar - Services Menu -->
+                <div class="lg:col-span-1">
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-6 sticky top-28">
+                        <h3 class="font-serif text-gold-400 text-xl mb-6 uppercase tracking-widest border-b border-gold-600/30 pb-3">Our Criminal Defense Services</h3>
+                        <ul class="space-y-3 text-sm">
+                            <li><a href="#bail-applications" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Bail Applications</a></li>
+                            <li><a href="#trial-representation" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Trial Representation</a></li>
+                            <li><a href="#appeals" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Appeals & Revisions</a></li>
+                            <li><a href="#white-collar" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>White Collar Crimes</a></li>
+                            <li><a href="#cyber-crimes" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Cyber Crimes</a></li>
+                            <li><a href="#narcotics" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Narcotics Offenses</a></li>
+                            <li><a href="#terrorism" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Terrorism Cases</a></li>
+                            <li><a href="#juvenile" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Juvenile Defense</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="lg:col-span-2 space-y-16">
+                    <!-- Bail Applications Section -->
+                    <div id="bail-applications" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-handcuffs text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Bail Applications</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We handle all types of bail applications under Pakistani law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Pre-Arrest Bail:</strong> Applications under Section 498 of the Code of Criminal Procedure to prevent arrest</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Post-Arrest Bail:</strong> Applications for bail after arrest under Section 497 of the Code of Criminal Procedure</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Anticipatory Bail:</strong> Applications for bail in anticipation of arrest</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Regular Bail:</strong> Applications for bail after arrest in non-bailable offenses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Bail in High Court:</strong> Bail applications filed in the High Court</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Bail in Supreme Court:</strong> Bail applications filed in the Supreme Court of Pakistan</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced criminal defense lawyers have a strong track record of securing bail for our clients, ensuring their freedom while their cases proceed through the legal system.
+                        </p>
+                    </div>
+
+                    <!-- Trial Representation Section -->
+                    <div id="trial-representation" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-gavel text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Trial Representation</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We provide comprehensive legal representation in criminal trials under Pakistani law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Magistrate Court Trials:</strong> Representation in trials before Magistrates</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Sessions Court Trials:</strong> Representation in trials before Sessions Courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>High Court Trials:</strong> Representation in trials before High Courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Special Court Trials:</strong> Representation in trials before special courts (e.g., Anti-Terrorism Courts, Anti-Narcotics Courts)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Cross-Examination:</strong> Skilled cross-examination of prosecution witnesses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Defense Strategy:</strong> Development of effective defense strategies</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Closing Arguments:</strong> Persuasive closing arguments to secure acquittals</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has extensive experience in criminal trials, ensuring that your rights are protected and your defense is vigorously presented.
+                        </p>
+                    </div>
+
+                    <!-- Appeals & Revisions Section -->
+                    <div id="appeals" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-balance-scale text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Appeals & Revisions</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We handle all types of appeals and revisions under Pakistani law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Appeals to Sessions Court:</strong> Appeals from Magistrate Court decisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Appeals to High Court:</strong> Appeals from Sessions Court decisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Appeals to Supreme Court:</strong> Appeals from High Court decisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Criminal Revisions:</strong> Revision petitions to High Courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Review Petitions:</strong> Petitions for review of court decisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Writ Petitions:</strong> Petitions for constitutional remedies</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our appellate team has extensive experience in criminal appeals, ensuring that legal errors are identified and corrected, and that your rights are protected at all levels of the judicial system.
+                        </p>
+                    </div>
+
+                    <!-- White Collar Crimes Section -->
+                    <div id="white-collar" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-briefcase text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">White Collar Crimes</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We represent clients in white collar crime cases under Pakistani law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Fraud:</strong> Defense against fraud charges under the Pakistan Penal Code and other laws</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Embezzlement:</strong> Defense against embezzlement charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Money Laundering:</strong> Defense against money laundering charges under the Anti-Money Laundering Act, 2010</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Tax Evasion:</strong> Defense against tax evasion charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Insider Trading:</strong> Defense against insider trading charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Corporate Fraud:</strong> Defense against corporate fraud charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Banking Fraud:</strong> Defense against banking and financial fraud charges</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has extensive experience in white collar crime defense, ensuring that your rights are protected and your case is presented effectively.
+                        </p>
+                    </div>
+
+                    <!-- Cyber Crimes Section -->
+                    <div id="cyber-crimes" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-laptop text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Cyber Crimes</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We represent clients in cyber crime cases under the Prevention of Electronic Crimes Act, 2016 and other laws, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Hacking:</strong> Defense against unauthorized access to computer systems</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Identity Theft:</strong> Defense against identity theft and impersonation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Cyber Stalking:</strong> Defense against cyber stalking and harassment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Online Fraud:</strong> Defense against online fraud and scams</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Data Theft:</strong> Defense against theft of electronic data</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Cyber Terrorism:</strong> Defense against cyber terrorism charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Social Media Crimes:</strong> Defense against offenses committed on social media platforms</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has in-depth knowledge of cyber laws in Pakistan and extensive experience in cyber crime defense, ensuring that your rights are protected in the digital realm.
+                        </p>
+                    </div>
+
+                    <!-- Narcotics Offenses Section -->
+                    <div id="narcotics" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-prescription-bottle-alt text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Narcotics Offenses</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We represent clients in narcotics cases under the Control of Narcotic Substances Act, 1997 and other laws, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Possession:</strong> Defense against charges of possession of narcotic substances</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Trafficking:</strong> Defense against charges of trafficking in narcotic substances</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Manufacturing:</strong> Defense against charges of manufacturing narcotic substances</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Import/Export:</strong> Defense against charges of importing or exporting narcotic substances</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Asset Forfeiture:</strong> Defense against asset forfeiture proceedings</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Bail in Narcotics Cases:</strong> Specialized bail applications in narcotics cases</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has extensive experience in narcotics defense, ensuring that your rights are protected and your case is presented effectively in Anti-Narcotics Courts.
+                        </p>
+                    </div>
+
+                    <!-- Terrorism Cases Section -->
+                    <div id="terrorism" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-shield-alt text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Terrorism Cases</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We represent clients in terrorism cases under the Anti-Terrorism Act, 1997 and other laws, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Terrorism Charges:</strong> Defense against terrorism-related charges</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Terrorist Financing:</strong> Defense against charges of financing terrorism</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Anti-Terrorism Court Trials:</strong> Representation in trials before Anti-Terrorism Courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Bail in Terrorism Cases:</strong> Specialized bail applications in terrorism cases</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Appeals in Terrorism Cases:</strong> Appeals from Anti-Terrorism Court decisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Asset Freezing:</strong> Defense against asset freezing orders</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has extensive experience in terrorism cases, ensuring that your rights are protected and your case is presented effectively in Anti-Terrorism Courts.
+                        </p>
+                    </div>
+
+                    <!-- Juvenile Defense Section -->
+                    <div id="juvenile" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-child text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Juvenile Defense</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We provide specialized legal representation for juveniles under the Juvenile Justice System Ordinance, 2000 and other laws, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Juvenile Court Proceedings:</strong> Representation in Juvenile Courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Bail for Juveniles:</strong> Specialized bail applications for juvenile offenders</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Diversion Programs:</strong> Advocacy for diversion programs and alternatives to incarceration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Expungement:</strong> Legal proceedings to expunge juvenile records</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Child Rights Advocacy:</strong> Protection of child rights in the criminal justice system</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardianship:</strong> Legal representation involving guardianship issues for juveniles</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has extensive experience in juvenile defense, ensuring that the rights of young offenders are protected and that they receive fair treatment in the criminal justice system.
+                        </p>
+                    </div>
+
+                    <!-- Legal Framework Section -->
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-balance-scale text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Legal Framework in Pakistan</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Criminal law in Pakistan is governed by various laws and procedural rules:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Pakistan Penal Code, 1860:</strong> The primary criminal code defining offenses and punishments</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Code of Criminal Procedure, 1898:</strong> Governs the procedure for criminal cases</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Qanoon-e-Shahadat Order, 1984:</strong> Governs the law of evidence in criminal cases</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Anti-Terrorism Act, 1997:</strong> Governs terrorism-related offenses and procedures</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Control of Narcotic Substances Act, 1997:</strong> Governs narcotics-related offenses</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Prevention of Electronic Crimes Act, 2016:</strong> Governs cyber crimes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Juvenile Justice System Ordinance, 2000:</strong> Governs the treatment of juvenile offenders</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has in-depth knowledge of these laws and procedural rules, ensuring that your case is handled efficiently and effectively in the Pakistani criminal justice system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-navy-900 border-t border-gold-600/20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">Contact Us</h3>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-navy-800 border border-gold-600/30 p-2">
+                <iframe
+                    onload="javascript:parent.scrollTo(0,0);"
+                    height="750" allowTransparency="true"
+                    frameborder="0" scrolling="yes"
+                    style="width:100%;border:none"
+                    src="https://digital-justice.formaloo.co/0qnz0p"
+                    id="formalooIframe"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-16 pb-8 border-t-4 border-gold-600">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                <div class="flex items-center space-x-4 mb-6 md:mb-0">
+                    <div class="w-12 h-12 border-2 border-gold-500 rounded-full flex items-center justify-center">
+                        <span class="font-serif text-xl font-bold text-gold-500">C</span>
+                    </div>
+                    <div class="text-left">
+                         <h4 class="font-serif text-lg tracking-widest text-gold-400">CAANDONS</h4>
+                         <p class="text-[10px] uppercase text-gray-500">Official Government Site</p>
+                    </div>
+                </div>
+
+                <div class="flex space-x-8 text-xs font-serif tracking-widest text-gold-600">
+                    <a href="#" class="hover:text-gold-400">PIADE AVOCESSIONS</a>
+                    <a href="#" class="hover:text-gold-400">AD GET OP</a>
+                    <a href="#" class="hover:text-gold-400">PTIYNOUV MDAND</a>
+                </div>
+
+                <div class="flex items-center space-x-4 mt-6 md:mt-0">
+                    <i class="fab fa-twitter text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-facebook text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-instagram text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-600 uppercase tracking-widest">
+                <div class="flex space-x-2 text-gold-600">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>&copy; 2025 City of Dragons. All Rights Reserved.</p>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>001 YOUTYVC</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

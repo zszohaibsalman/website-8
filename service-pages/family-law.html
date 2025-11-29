@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Law - Digital Justice | Legal Services in Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="font-sans overflow-x-hidden bg-navy-950 text-white">
+    <!-- Top Bar -->
+    <div class="bg-navy-950 text-gold-500 text-[10px] py-1 border-b border-white/10 tracking-widest uppercase text-center">
+        Certified with the Punjab Bar • Established 2010 • Trusted Partners
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-navy-900/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gold-600/30 h-24">
+        <div class="max-w-7xl mx-auto px-4 h-full relative flex items-center justify-between">
+
+            <!-- Left Brand -->
+            <div class="w-1/4 flex items-center justify-start flex-col">
+                <div class="text-left">
+                    <h1 class="font-serif text-2xl tracking-[0.2em] text-gold-400 font-bold">Digital Justice</h1>
+                    <p class="text-[0.6rem] uppercase tracking-widest text-gold-600/70">LEGAL PROBLEM SOLVER</p>
+                </div>
+                <!-- SVG Animation -->
+                <div class="w-32 h-8 mt-2">
+                    <svg viewBox="0 0 512 128" class="w-full h-full text-gold-400">
+                        <path fill="currentColor" d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Center Links & Seal -->
+            <div class="w-1/2 flex justify-center items-center relative">
+                <!-- Navigation Links (Left of Seal) -->
+                <div class="hidden lg:flex space-x-8 mr-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="../index.html">Home</a>
+                    <a href="#">Our Team</a>
+                </div>
+
+                <!-- Central Seal (Absolute to pop out) -->
+                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-4 z-10 group cursor-pointer">
+                    <div class="w-24 h-24 rounded-full bg-navy-900 border-4 border-gold-500 shadow-[0_0_30px_rgba(197,160,89,0.3)] flex items-center justify-center relative overflow-hidden transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 border-2 border-dashed border-gold-600/50 rounded-full m-1 seal-spin"></div>
+                        <i class="fas fa-eagle text-4xl text-gold-gradient"></i>
+                    </div>
+                </div>
+
+                <!-- Navigation Links (Right of Seal) -->
+                <div class="hidden lg:flex space-x-8 ml-24 text-xs font-serif tracking-widest text-gold-light/80 hover:text-white transition-colors uppercase">
+                    <a href="#">Decrees</a>
+                    <a href="#">Media</a>
+                </div>
+            </div>
+
+            <!-- Right Actions -->
+            <div class="w-1/4 flex items-center justify-end space-x-6">
+                <div class="hidden md:flex space-x-6 text-xs font-serif tracking-widest text-gold-light/80">
+                    <a href="#" class="hover:text-white">Login</a>
+                </div>
+                <button class="bg-gradient-to-r from-gold-600 to-gold-400 text-navy-900 font-serif font-bold px-6 py-2 rounded-sm uppercase tracking-widest text-xs hover:brightness-110 shadow-lg transition-all">
+                    <a href="../index.html#contact" class="block w-full h-full">Contact Us</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative py-24 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-navy-900 to-navy-800 opacity-80"></div>
+
+        <!-- Main Content -->
+        <div class="relative z-10 text-center max-w-5xl mx-auto px-4">
+            <h1 class="font-serif text-5xl md:text-6xl text-gold-400 mb-6 uppercase tracking-widest">Family Law in Pakistan</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Comprehensive legal services for family matters under Pakistani law, ensuring your rights are protected with compassion and expertise.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="py-20 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <!-- Left Sidebar - Services Menu -->
+                <div class="lg:col-span-1">
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-6 sticky top-28">
+                        <h3 class="font-serif text-gold-400 text-xl mb-6 uppercase tracking-widest border-b border-gold-600/30 pb-3">Our Family Law Services</h3>
+                        <ul class="space-y-3 text-sm">
+                            <li><a href="#divorce" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Divorce & Khula</a></li>
+                            <li><a href="#child-custody" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Child Custody</a></li>
+                            <li><a href="#maintenance" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Maintenance & Alimony</a></li>
+                            <li><a href="#marriage" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Marriage & Nikah</a></li>
+                            <li><a href="#guardianship" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Guardianship</a></li>
+                            <li><a href="#adoption" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Adoption</a></li>
+                            <li><a href="#domestic-violence" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Domestic Violence</a></li>
+                            <li><a href="#inheritance" class="text-gold-400 hover:text-gold-300 transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-3"></i>Inheritance & Succession</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="lg:col-span-2 space-y-16">
+                    <!-- Divorce Section -->
+                    <div id="divorce" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-gavel text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Divorce & Khula</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We handle all types of divorce proceedings under Pakistani law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Talaq:</strong> Divorce initiated by the husband under Islamic law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Khula:</strong> Divorce initiated by the wife with return of dower (mehr)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Mutual Divorce:</strong> Divorce by mutual consent under the Dissolution of Muslim Marriages Act, 1939</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Judicial Divorce:</strong> Divorce through family courts on valid grounds</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced lawyers guide you through the entire process, ensuring your rights are protected and the proceedings are handled efficiently.
+                        </p>
+                    </div>
+
+                    <!-- Child Custody Section -->
+                    <div id="child-custody" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-child text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Child Custody</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Under Pakistani law, child custody matters are governed by the Guardians and Wards Act, 1890 and Islamic principles. We provide expert legal representation in:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Custody Disputes:</strong> Representation in family courts for custody matters</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Visitation Rights:</strong> Establishing fair visitation schedules</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardianship Orders:</strong> Legal proceedings for guardianship of minors</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Custody:</strong> Cases involving cross-border custody issues</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            The welfare of the child is the paramount consideration in Pakistani courts. We work diligently to ensure the best interests of your children are protected.
+                        </p>
+                    </div>
+
+                    <!-- Maintenance Section -->
+                    <div id="maintenance" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-hand-holding-usd text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Maintenance & Alimony</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We handle maintenance claims under the Family Courts Act, 1964 and Islamic law, including:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Wife Maintenance:</strong> Claims for maintenance during marriage and after divorce</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Child Support:</strong> Claims for financial support of children</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Enforcement:</strong> Legal proceedings to enforce maintenance orders</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Modification:</strong> Requests to modify existing maintenance orders</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our lawyers ensure that fair and adequate maintenance is awarded based on the financial circumstances of both parties.
+                        </p>
+                    </div>
+
+                    <!-- Marriage & Nikah Section -->
+                    <div id="marriage" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-ring text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Marriage & Nikah</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We provide comprehensive legal services related to marriage under Pakistani law:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Nikah Registration:</strong> Proper registration of Islamic marriages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Civil Marriages:</strong> Registration of civil marriages under the Christian Marriage Act and other laws</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Court Marriages:</strong> Legal assistance for court marriages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Marriage Contracts:</strong> Drafting and reviewing marriage contracts (Nikahnama)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Polygamy Issues:</strong> Legal advice on polygamous marriages under Pakistani law</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team ensures that all marriages are properly registered and legally valid, protecting your rights under Pakistani law.
+                        </p>
+                    </div>
+
+                    <!-- Guardianship Section -->
+                    <div id="guardianship" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-user-shield text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Guardianship</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Under the Guardians and Wards Act, 1890, we handle all matters related to guardianship of minors:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardianship Applications:</strong> Legal proceedings to appoint guardians</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardianship Disputes:</strong> Resolution of disputes between potential guardians</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Property Guardianship:</strong> Management of minor's property</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Guardianship:</strong> Cases involving guardianship across borders</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            The welfare of the minor is the primary consideration in guardianship matters. We ensure that the best interests of the child are protected.
+                        </p>
+                    </div>
+
+                    <!-- Adoption Section -->
+                    <div id="adoption" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-hands text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Adoption</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            While Islamic law does not recognize adoption in the Western sense, Pakistani law provides for alternative arrangements:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Foster Care:</strong> Legal arrangements for foster care under Pakistani law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardianship:</strong> Legal guardianship arrangements for orphaned or abandoned children</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>International Adoption:</strong> Assistance with international adoption processes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Inheritance Rights:</strong> Legal advice on inheritance rights for adopted children</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team provides expert guidance on the legal options available for those seeking to provide care for children in need.
+                        </p>
+                    </div>
+
+                    <!-- Domestic Violence Section -->
+                    <div id="domestic-violence" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-shield-alt text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Domestic Violence</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We provide legal protection and representation for victims of domestic violence under the Domestic Violence (Prevention and Protection) Act, 2012:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Protection Orders:</strong> Obtaining protection orders from courts</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Residence Orders:</strong> Securing safe housing arrangements</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Monetary Relief:</strong> Claims for financial compensation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Custody Orders:</strong> Securing custody of children in domestic violence cases</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Criminal Proceedings:</strong> Assistance with criminal complaints against abusers</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team provides compassionate and confidential legal support to victims of domestic violence, helping them secure their safety and legal rights.
+                        </p>
+                    </div>
+
+                    <!-- Inheritance Section -->
+                    <div id="inheritance" class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-scroll text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Inheritance & Succession</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            We handle inheritance matters under Pakistani law, including Islamic inheritance rules and statutory provisions:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Succession Certificates:</strong> Legal proceedings to obtain succession certificates</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Will Drafting:</strong> Preparation of legally valid wills under Pakistani law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Probate:</strong> Legal proceedings for probate of wills</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Inheritance Disputes:</strong> Resolution of disputes among heirs</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Islamic Inheritance:</strong> Calculation and distribution of assets according to Islamic law</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team ensures that inheritance matters are handled efficiently and in accordance with the law, protecting the rights of all parties involved.
+                        </p>
+                    </div>
+
+                    <!-- Legal Framework Section -->
+                    <div class="bg-navy-800 border border-gold-600/30 rounded-lg p-8">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 bg-navy-950 rounded-full border border-gold-600/50 flex items-center justify-center mr-4">
+                                <i class="fas fa-balance-scale text-gold-400"></i>
+                            </div>
+                            <h2 class="font-serif text-3xl text-gold-400 uppercase tracking-widest">Legal Framework in Pakistan</h2>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Family law in Pakistan is governed by a combination of Islamic principles and statutory laws:
+                        </p>
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Muslim Family Laws Ordinance, 1961:</strong> Governs marriage, divorce, maintenance, and polygamy</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Dissolution of Muslim Marriages Act, 1939:</strong> Provides grounds for dissolution of Muslim marriages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Guardians and Wards Act, 1890:</strong> Governs guardianship and custody matters</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Family Courts Act, 1964:</strong> Establishes family courts for resolution of family disputes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gavel text-gold-400 mr-3 mt-1"></i>
+                                <span><strong>Domestic Violence (Prevention and Protection) Act, 2012:</strong> Provides protection against domestic violence</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our team has in-depth knowledge of these laws and their application in Pakistani courts, ensuring that your case is handled with expertise and professionalism.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-navy-900 border-t border-gold-600/20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="font-serif text-gold-400 text-3xl uppercase tracking-widest border-b border-gold-600/30 inline-block pb-4 px-8">Contact Us</h3>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-navy-800 border border-gold-600/30 p-2">
+                <iframe
+                    onload="javascript:parent.scrollTo(0,0);"
+                    height="750" allowTransparency="true"
+                    frameborder="0" scrolling="yes"
+                    style="width:100%;border:none"
+                    src="https://digital-justice.formaloo.co/0qnz0p"
+                    id="formalooIframe"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white pt-16 pb-8 border-t-4 border-gold-600">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                <div class="flex items-center space-x-4 mb-6 md:mb-0">
+                    <div class="w-12 h-12 border-2 border-gold-500 rounded-full flex items-center justify-center">
+                        <span class="font-serif text-xl font-bold text-gold-500">C</span>
+                    </div>
+                    <div class="text-left">
+                         <h4 class="font-serif text-lg tracking-widest text-gold-400">CAANDONS</h4>
+                         <p class="text-[10px] uppercase text-gray-500">Official Government Site</p>
+                    </div>
+                </div>
+
+                <div class="flex space-x-8 text-xs font-serif tracking-widest text-gold-600">
+                    <a href="#" class="hover:text-gold-400">PIADE AVOCESSIONS</a>
+                    <a href="#" class="hover:text-gold-400">AD GET OP</a>
+                    <a href="#" class="hover:text-gold-400">PTIYNOUV MDAND</a>
+                </div>
+
+                <div class="flex items-center space-x-4 mt-6 md:mt-0">
+                    <i class="fab fa-twitter text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-facebook text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                    <i class="fab fa-instagram text-gold-600 hover:text-gold-400 cursor-pointer"></i>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-600 uppercase tracking-widest">
+                <div class="flex space-x-2 text-gold-600">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>&copy; 2025 City of Dragons. All Rights Reserved.</p>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>001 YOUTYVC</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
